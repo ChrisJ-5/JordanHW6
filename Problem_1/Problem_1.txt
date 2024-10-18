@@ -1,0 +1,38 @@
+Chris Jordan
+HW6 Problem 1
+
+Question 1: Explain how strcmp works
+
+This function is used to compare the characters of 2 strings. It starts at the 
+first character on each string and compares each character until the string
+ends, or there are differing characters. In the program, this is used to check
+the command line arguments.
+
+Question 2: Explain the statement: FILE* fp; 
+
+This statement sets up a pointer "fp", that points to the address of "FILE". In
+the program, it is used to read and write to the LED control files.
+
+Question 3: Explain how sprintf works
+
+This function is used to format a string and store it in a buffer. In the
+program, it is used to complete pathnames to files.
+
+Question 4: Explain how fprintf works
+
+This function is used to format a string and write it to a file. In the program
+it is used to turn the LED on and off. It changes the value of the LEDs within
+the LED control files.
+
+Question 5: Explain how fgets works
+
+This function is used to read a line from a file into a buffer. In the program
+it is used to read characters into the "line" buffer. It does this until NULL is
+returned (end of file).
+
+
+
+
+
+
+
